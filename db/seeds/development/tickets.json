@@ -1,0 +1,12 @@
+{
+	"records":[
+	{
+		"sprig_id":1,
+		"user":"user@example.com",
+		"title":"example ticket",
+		"body":"I have a major issue!",
+		"assigned_to":1,
+		"open":true
+	}
+	]
+}

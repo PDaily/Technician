@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :ticket_boxes
+
   devise_for :users
   get 'welcome/index'
   # Set Root
