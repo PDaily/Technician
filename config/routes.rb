@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :tickets
+
   resources :ticket_boxes
 
   devise_for :users

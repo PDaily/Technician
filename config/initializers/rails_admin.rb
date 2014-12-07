@@ -32,5 +32,5 @@ RailsAdmin.config do |config|
     # history_show
   end
 
-  config.included_models = ['User', 'Ticket']
+  config.included_models = ['User', 'TicketBox', 'Ticket']
 end
