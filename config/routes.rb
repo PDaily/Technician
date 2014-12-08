@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
 
+  get 'poly/index', as: :index
+
+  get 'poly/login'
+
+  get 'poly/tickets'
+
   resources :tickets
 
   resources :ticket_boxes

@@ -1,0 +1,19 @@
+<polymer-element name="main-menu">
+  <template>
+    <link rel="stylesheet" href="main-menu.css" />
+
+    <core-scaffold id="core_scaffold">
+      <core-header-panel mode="seamed" id="core_header_panel" navigation flex>
+        <core-toolbar id="core_toolbar"></core-toolbar>
+        <core-menu valueattr="label" id="core_menu" theme="core-light-theme">
+          <core-item id="core_item" icon="settings" label="Item1" horizontal center layout></core-item>
+          <core-item id="core_item1" icon="settings" label="Item2" horizontal center layout></core-item>
+        </core-menu>
+      </core-header-panel>
+      <div id="div" tool>Title</div>
+    </core-scaffold>
+    
+  </template>
+
+  <script src="main-menu.js"></script>
+</polymer-element>
